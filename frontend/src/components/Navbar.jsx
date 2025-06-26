@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useAuthStore } from "../../../../Course learning/fullstack-chat-app/frontend/src/store/useAuthStore";
+import { useAuthStore } from "../../../../chat-app/frontend/src/store/useAuthStore";
 import { LogOut, MessageSquare, Settings, User } from "lucide-react";
 
 const Navbar = () => {

@@ -1,6 +1,6 @@
 import { X } from "lucide-react";
-import { useAuthStore } from "../../../../Course learning/fullstack-chat-app/frontend/src/store/useAuthStore";
-import { useChatStore } from "../../../../Course learning/fullstack-chat-app/frontend/src/store/useChatStore";
+import { useAuthStore } from "../../../../chat-app/frontend/src/store/useAuthStore";
+import { useChatStore } from "../../../../chat-app/frontend/src/store/useChatStore";
 
 const ChatHeader = () => {
   const { selectedUser, setSelectedUser } = useChatStore();

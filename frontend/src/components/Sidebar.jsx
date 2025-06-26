@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { useChatStore } from "../../../../Course learning/fullstack-chat-app/frontend/src/store/useChatStore";
-import { useAuthStore } from "../../../../Course learning/fullstack-chat-app/frontend/src/store/useAuthStore";
+import { useChatStore } from "../../../../chat-app/frontend/src/store/useChatStore";
+import { useAuthStore } from "../../../../chat-app/frontend/src/store/useAuthStore";
 import SidebarSkeleton from "./skeletons/SidebarSkeleton";
 import { Users } from "lucide-react";
 

@@ -1,11 +1,11 @@
-import { useChatStore } from "../../../../Course learning/fullstack-chat-app/frontend/src/store/useChatStore";
+import { useChatStore } from "../../../../chat-app/frontend/src/store/useChatStore";
 import { useEffect, useRef } from "react";
 
 import ChatHeader from "./ChatHeader";
 import MessageInput from "./MessageInput";
 import MessageSkeleton from "./skeletons/MessageSkeleton";
-import { useAuthStore } from "../../../../Course learning/fullstack-chat-app/frontend/src/store/useAuthStore";
-import { formatMessageTime } from "../../../../Course learning/fullstack-chat-app/frontend/src/lib/utils";
+import { useAuthStore } from "../../../../chat-app/frontend/src/store/useAuthStore";
+import { formatMessageTime } from "../../../../chat-app/frontend/src/lib/utils";
 
 const ChatContainer = () => {
   const {
